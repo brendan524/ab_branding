@@ -1,41 +1,74 @@
-/* AB Group Brand Theme */
+/* ========================================
+   AB Group Brand Theme — Dark
+   Blue #09C3F4 primary | Green #80C242 secondary
+   ======================================== */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
-:root {
-  --ab-blue: #09C3F4;
-  --ab-green: #80C242;
-  --ab-black: #000000;
-  --ab-white: #FFFFFF;
+:root,
+[data-theme="light"],
+[data-theme="dark"] {
+  --bg-color: #000000 !important;
+  --fg-color: #000000 !important;
+  --card-bg: #111111 !important;
+  --control-bg: #111111 !important;
+  --control-bg-on-gray: #1a1a1a !important;
+  --subtle-fg: #1a1a1a !important;
+  --subtle-accent: #1a1a1a !important;
+  --fg-hover-color: #1a1a1a !important;
+  --text-color: #ffffff !important;
+  --text-muted: #b0b0b0 !important;
+  --text-light: #909090 !important;
+  --text-neutral: #ffffff !important;
+  --heading-color: #ffffff !important;
+  --navbar-bg: #000000 !important;
+  --border-color: #2a2a2a !important;
+  --dark-border-color: #2a2a2a !important;
+  --gray-50: #111111 !important;
+  --gray-100: #1a1a1a !important;
+  --gray-200: #222222 !important;
+  --gray-300: #333333 !important;
+  --primary: #09C3F4 !important;
+  --primary-color: #09C3F4 !important;
+  --brand-color: #09C3F4 !important;
+  --btn-primary: #09C3F4 !important;
+  --scrollbar-thumb-color: #333333 !important;
+  --scrollbar-track-color: #000000 !important;
+  --font-stack: 'Lato', sans-serif !important;
 }
 
-/* Apply Lato across the desk */
 body,
+.layout-main-section,
 .navbar,
-.page-head,
-.widget,
-input, button, select, textarea {
+.page-head {
   font-family: 'Lato', sans-serif !important;
+  color: #ffffff !important;
 }
 
-/* Headings in Lato Bold */
 h1, h2, h3, h4, h5, h6,
 .page-title, .title-text {
   font-family: 'Lato', sans-serif !important;
   font-weight: 700 !important;
+  color: #ffffff !important;
 }
 
-/* Primary buttons and accents in brand blue */
 .btn-primary {
-  background-color: var(--ab-blue) !important;
-  border-color: var(--ab-blue) !important;
-  color: var(--ab-black) !important;
-}
-.btn-primary:hover {
-  background-color: var(--ab-green) !important;
-  border-color: var(--ab-green) !important;
+  background-color: #09C3F4 !important;
+  border-color: #09C3F4 !important;
+  color: #000000 !important;
+  font-weight: 700 !important;
 }
 
-/* Links in brand blue */
+.btn-primary:hover {
+  background-color: #80C242 !important;
+  border-color: #80C242 !important;
+  color: #000000 !important;
+}
+
 a, .text-primary {
-  color: var(--ab-blue) !important;
+  color: #09C3F4 !important;
+}
+
+a:hover {
+  color: #80C242 !important;
 }
