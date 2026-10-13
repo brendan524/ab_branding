@@ -11,6 +11,7 @@
   --bg-color: #000000 !important;
   --fg-color: #000000 !important;
   --card-bg: #111111 !important;
+  --modal-bg: #111111 !important;
   --control-bg: #111111 !important;
   --control-bg-on-gray: #1a1a1a !important;
   --subtle-fg: #1a1a1a !important;
@@ -28,6 +29,15 @@
   --gray-100: #1a1a1a !important;
   --gray-200: #222222 !important;
   --gray-300: #333333 !important;
+  --bg-blue: #1a1a1a !important;
+  --bg-light-blue: #1a1a1a !important;
+  --bg-green: #1a1a1a !important;
+  --bg-yellow: #1a1a1a !important;
+  --bg-orange: #1a1a1a !important;
+  --bg-red: #1a1a1a !important;
+  --bg-gray: #1a1a1a !important;
+  --bg-light-gray: #1a1a1a !important;
+  --awesomebar-focus-bg: #1a1a1a !important;
   --primary: #09C3F4 !important;
   --primary-color: #09C3F4 !important;
   --brand-color: #09C3F4 !important;
@@ -72,6 +82,7 @@ a, .text-primary {
 a:hover {
   color: #80C242 !important;
 }
+
 /* ========================================
    Popups, Modals & Toasts — dark
    ======================================== */
@@ -122,6 +133,16 @@ a:hover {
 #alert-container .desk-alert,
 .desk-alert .alert-message,
 .desk-alert .alert-body {
+  background-color: #111111 !important;
+  color: #ffffff !important;
+  border-color: #2a2a2a !important;
+}
+
+/* Bottom-right alert popups — force all children dark */
+#alert-container,
+#alert-container > div,
+#alert-container .desk-alert,
+#alert-container .desk-alert * {
   background-color: #111111 !important;
   color: #ffffff !important;
   border-color: #2a2a2a !important;
