@@ -72,3 +72,90 @@ a, .text-primary {
 a:hover {
   color: #80C242 !important;
 }
+/* ========================================
+   Popups, Modals & Toasts — dark
+   ======================================== */
+
+/* Modal / dialog backgrounds */
+.modal-content,
+.modal-dialog .modal-content,
+.modal-header,
+.modal-body,
+.modal-footer {
+  background-color: #111111 !important;
+  color: #ffffff !important;
+  border-color: #2a2a2a !important;
+}
+
+/* Modal title and text */
+.modal-title,
+.modal-header .modal-title,
+.modal-body label,
+.modal-body .control-label,
+.modal-body p,
+.modal-body span,
+.modal-body div {
+  color: #ffffff !important;
+}
+
+/* Modal backdrop a touch darker */
+.modal-backdrop {
+  background-color: #000000 !important;
+}
+
+/* Inputs inside modals */
+.modal-body .form-control,
+.modal-body input,
+.modal-body select,
+.modal-body textarea {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  border-color: #2a2a2a !important;
+}
+
+/* Toasts / alerts / notifications — dark bg, white text */
+.desk-alert,
+.alert,
+.toast,
+.msgprint,
+.modal .msgprint,
+#alert-container .desk-alert,
+.desk-alert .alert-message,
+.desk-alert .alert-body {
+  background-color: #111111 !important;
+  color: #ffffff !important;
+  border-color: #2a2a2a !important;
+}
+
+/* Success/green toast — override to dark */
+.desk-alert.green,
+.alert-success,
+.desk-alert[data-alert-type="success"] {
+  background-color: #111111 !important;
+  color: #ffffff !important;
+  border-left: 3px solid #80C242 !important;
+}
+
+/* Error/red toast — keep dark, red accent */
+.desk-alert.red,
+.alert-danger,
+.desk-alert[data-alert-type="error"] {
+  background-color: #111111 !important;
+  color: #ffffff !important;
+  border-left: 3px solid #e03636 !important;
+}
+
+/* Popovers and dropdowns */
+.popover,
+.popover-body,
+.dropdown-menu {
+  background-color: #111111 !important;
+  color: #ffffff !important;
+  border-color: #2a2a2a !important;
+}
+.dropdown-menu .dropdown-item {
+  color: #ffffff !important;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #1a1a1a !important;
+}
